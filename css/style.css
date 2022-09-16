@@ -1,0 +1,1238 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+  background: url("../img/background.jpg") center;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container-wide {
+  max-width: 1760px;
+  width: 100%;
+  margin: auto;
+}
+.container-normal {
+  max-width: 1301px;
+  width: 100%;
+  margin: auto;
+}
+.container-tight {
+  max-width: 750px;
+  width: 100%;
+  margin: auto;
+}
+.container-tight--tighter {
+  max-width: 547px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+}
+
+.header {
+  background: url("../img/main-screen__bgc.jpg") no-repeat center/cover;
+  padding-top: 38px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav__item {
+  margin-right: 56px;
+}
+.header-nav__item:last-of-type {
+  margin-right: 0;
+}
+.header-nav__button {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  margin-left: 270px;
+  color: #FFFFFF;
+}
+.header-bottom__title {
+  max-width: 920px;
+  font-size: 64px;
+  line-height: 140%;
+  margin-bottom: 50px;
+}
+.header-timer {
+  display: flex;
+  margin-bottom: 218px;
+}
+.header-timer__item {
+  text-align: center;
+  background: #121212;
+  padding: 30px 20px;
+  margin-right: 30px;
+}
+.header-timer__item:last-of-type {
+  margin-right: 0;
+}
+.header-timer__title {
+  line-height: 140%;
+}
+.header-timer__text {
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+.header .statistic {
+  padding: 43px 0;
+  background: #121212;
+}
+.header .statistic-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .statistic__button {
+  color: #FFFFFF;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.header .statistic-studs {
+  max-width: 251px;
+  width: 100%;
+}
+.header .statistic-studs-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .statistic-studs-block__text {
+  color: #FFFFFF;
+  opacity: 0.4;
+  margin-bottom: 10px;
+}
+.header .statistic-earnings {
+  max-width: 714px;
+  width: 100%;
+}
+.header .statistic-earnings-number {
+  display: flex;
+  margin-bottom: 8px;
+}
+.header .statistic-earnings-number__text {
+  color: #FFFFFF;
+  opacity: 0.4;
+  margin-right: 30px;
+}
+.header .statistic-earnings-bar {
+  margin-bottom: 5px;
+  height: 6px;
+  background: linear-gradient(90deg, rgb(223, 89, 80) 12%, rgb(69, 16, 70) 60%, rgb(255, 255, 255) 60%);
+}
+.header .statistic-earnings-target {
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+.header .statistic .without-margin {
+  margin: 0;
+}
+
+.about {
+  padding-top: 296px;
+  padding-bottom: 200px;
+}
+.about-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__img {
+  position: relative;
+}
+.about-desc {
+  max-width: 636px;
+  width: 100%;
+}
+.about-desc__title {
+  margin-bottom: 45px;
+}
+
+.start {
+  padding-bottom: 200px;
+}
+.start-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.start-heading__img {
+  margin-left: -30px;
+}
+.start-subtitle {
+  max-width: 411px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-bottom: 80px;
+}
+.start-bars {
+  display: flex;
+}
+.start-bars__item {
+  max-width: 324px;
+  width: 100%;
+}
+.start-bars__title {
+  font-size: 36px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.start-bars__title--75 {
+  margin-bottom: 30px;
+}
+.start-bars__title--50 {
+  margin-bottom: 45px;
+}
+.start-bars__title--result {
+  margin-bottom: 55px;
+}
+.start-bars__bar {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  margin-bottom: 35px;
+}
+.start-bars__bar--100 {
+  height: 80px;
+}
+.start-bars__bar--75 {
+  height: 60px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-bottom: 45px;
+}
+.start-bars__bar--50 {
+  height: 30px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  margin-bottom: 60px;
+}
+.start-bars__bar--result {
+  height: 10px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-bottom: 70px;
+}
+.start-bars__text {
+  max-width: 306px;
+  font-size: 14px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.profnow {
+  padding-bottom: 200px;
+  text-align: center;
+}
+.profnow__title {
+  margin-bottom: 120px;
+}
+.profnow-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profnow-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 416px;
+  width: 100%;
+}
+.profnow-card__img {
+  margin-bottom: 60px;
+}
+.profnow-card__title {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+.profnow-card__text {
+  max-width: 358px;
+  line-height: 160%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.partners {
+  padding-bottom: 153px;
+}
+.partners-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.partners-heading__img {
+  margin-right: 20px;
+}
+.partners-list__cols {
+  display: flex;
+}
+.partners-list__cols:last-of-type .partners-list__item {
+  border-bottom: none;
+}
+.partners-list__item {
+  display: flex;
+  max-width: 330px;
+  padding: 29px 66px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.partners-list__item:last-of-type {
+  border-right: none;
+}
+
+.program {
+  padding-bottom: 171px;
+}
+.program-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.program-heading__img {
+  margin-bottom: 45px;
+}
+.program-heading__title {
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+.program-heading__subtitle {
+  max-width: 411px;
+  line-height: 160%;
+  text-align: center;
+  opacity: 0.5;
+}
+.program-cols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.program-col:first-of-type {
+  border-right: 6px solid #C89AFC;
+}
+.program-col-item {
+  position: relative;
+  margin-bottom: 87px;
+}
+.program-col-item--left {
+  text-align: right;
+  padding-right: 60px;
+}
+.program-col-item--left::after {
+  content: "";
+  position: absolute;
+  top: 46px;
+  right: 0;
+  width: 40px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.program-col-item--right {
+  text-align: left;
+  padding-left: 60px;
+}
+.program-col-item--right::after {
+  content: "";
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 40px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.program-col-item:last-of-type {
+  margin-bottom: 0;
+}
+.program-col-item__week {
+  font-size: 14px;
+  line-height: 160%;
+  opacity: 0.5;
+  margin-bottom: 15px;
+}
+.program-col-item__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.teachers {
+  padding-bottom: 200px;
+}
+.teachers-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 110px;
+}
+.teachers-heading__button {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  line-height: 150%;
+}
+.teachers-heading__img {
+  margin-top: -40px;
+}
+.teachers-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 115px;
+}
+.teachers-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teachers-list__img {
+  margin-bottom: 40px;
+}
+.teachers-list__name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+.teachers-list__special {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.footer {
+  padding-bottom: 30px;
+}
+.footer__title {
+  margin-bottom: 30px;
+}
+.footer-subtitle {
+  max-width: 410px;
+  text-align: center;
+  opacity: 0.5;
+  margin: 0 auto 50px;
+}
+.footer-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.footer-form__input {
+  max-width: 353px;
+  width: 100%;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  color: #FFFFFF;
+  text-indent: 20px;
+}
+.footer-form__input::-moz-placeholder {
+  color: #FFFFFF;
+}
+.footer-form__input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.footer-form__input::placeholder {
+  color: #FFFFFF;
+}
+.footer-form__button {
+  color: #FFFFFF;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+  margin-left: -20px;
+  z-index: 1;
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.footer-socials__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.footer-socials__item:last-of-type {
+  margin-right: 0;
+}
+.footer-socials__links {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1260px) {
+  .header-nav__item {
+    margin-right: 28px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container-wide {
+    padding: 0 35px;
+  }
+  .container-normal {
+    padding: 0 35px;
+  }
+  .container-tight {
+    padding: 0 35px;
+  }
+  .container-tight--tighter {
+    padding: 0 35px;
+  }
+  .section-title {
+    font-size: 40px;
+  }
+  .header-logo__img {
+    margin-right: 30px;
+  }
+  .header-nav__button {
+    margin-left: 50px;
+  }
+  .header-bottom__title {
+    font-size: 50px;
+  }
+  .header .statistic-earnings {
+    max-width: 600px;
+  }
+  .about__img {
+    max-width: 400px;
+  }
+  .about-desc__text {
+    font-size: 14px;
+  }
+  .start-bars__title {
+    font-size: 35px;
+  }
+  .profnow-card {
+    max-width: 340px;
+  }
+  .partners {
+    padding-bottom: 45px;
+  }
+  .partners-list__item {
+    padding: 15px 35px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .section-title {
+    font-size: 35px;
+  }
+  .header-nav__button {
+    margin-left: 40px;
+  }
+  .header .statistic-earnings {
+    max-width: 400px;
+  }
+  .about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .about-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-desc__title {
+    text-align: center;
+  }
+  .about__img {
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+  .start-bars__title {
+    font-size: 28px;
+  }
+  .start-bars__text {
+    font-size: 13px;
+  }
+  .profnow__title {
+    margin-bottom: 70px;
+  }
+  .profnow-card__title {
+    font-size: 18px;
+  }
+  .profnow-card__text {
+    font-size: 14px;
+  }
+  .partners-list__item {
+    padding: 10px 15px;
+  }
+  .partners-list__img {
+    max-width: 175px;
+  }
+  .program-heading__img {
+    margin-bottom: 0;
+  }
+  .teachers-heading {
+    margin-bottom: 60px;
+  }
+  .teachers-list__img {
+    max-width: 150px;
+  }
+  .teachers-list__name {
+    font-size: 20px;
+  }
+  .teachers-list__special {
+    font-size: 14px;
+  }
+  .footer__title {
+    text-align: center;
+  }
+  .footer__copyright {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-top {
+    margin-bottom: 90px;
+  }
+  .header-nav__menu {
+    display: none;
+  }
+  .header-logo__img {
+    margin-right: 0;
+  }
+  .header-bottom__title {
+    font-size: 41px;
+  }
+  .header-timer {
+    margin-bottom: 135px;
+  }
+  .header .statistic-studs {
+    display: none;
+  }
+  .start {
+    padding-bottom: 100px;
+  }
+  .start-bars__text {
+    font-size: 10px;
+  }
+  .start-bars__bar--100 {
+    height: 70px;
+  }
+  .start-bars__bar--75 {
+    height: 50px;
+  }
+  .start-bars__bar--50 {
+    height: 20px;
+  }
+  .start-bars__bar--result {
+    height: 5px;
+    margin-bottom: 64px;
+  }
+  .profnow {
+    padding-bottom: 20px;
+  }
+  .profnow-cols {
+    flex-direction: column;
+  }
+  .profnow-card {
+    margin-bottom: 40px;
+  }
+  .profnow-card__img {
+    margin-bottom: 10px;
+  }
+  .profnow-card__title {
+    margin-bottom: 20px;
+  }
+  .partners-list__img {
+    max-width: 140px;
+  }
+  .program {
+    padding-bottom: 100px;
+  }
+  .program-col-item {
+    margin-bottom: 50px;
+  }
+  .teachers {
+    padding-bottom: 100px;
+  }
+  .teachers-heading {
+    margin-bottom: 30px;
+  }
+  .teachers-list {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-title {
+    font-size: 30px;
+  }
+  .header-bottom__title {
+    font-size: 28px;
+  }
+  .header-timer__item {
+    padding: 10px 12px;
+    margin-right: 7px;
+  }
+  .header .statistic {
+    padding: 20px 0;
+  }
+  .header .statistic-content {
+    justify-content: center;
+  }
+  .header .statistic-earnings {
+    display: none;
+  }
+  .about-desc__title {
+    margin-bottom: 20px;
+  }
+  .about-desc__text {
+    text-align: center;
+    font-size: 12px;
+  }
+  .start-heading {
+    justify-content: center;
+  }
+  .start-heading__img {
+    max-width: 75px;
+  }
+  .start-subtitle {
+    text-align: center;
+    max-width: 390px;
+    margin-bottom: 50px;
+  }
+  .start-bars {
+    flex-direction: column;
+  }
+  .start-bars__item {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .start-bars__bar {
+    display: none;
+  }
+  .start-bars__title--75, .start-bars__title--50, .start-bars__title--result {
+    margin-bottom: 20px;
+  }
+  .start-bars__text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .partners {
+    padding-bottom: 0;
+  }
+  .partners-heading__img {
+    max-width: 70px;
+  }
+  .partners-heading__title {
+    font-size: 22px;
+  }
+  .partners-list__img {
+    max-width: 70px;
+  }
+  .program-heading {
+    margin-bottom: 45px;
+  }
+  .program-heading__img {
+    max-width: 125px;
+  }
+  .program-heading__title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .program-heading__subtitle {
+    font-size: 16px;
+  }
+  .program-col-item__text {
+    font-size: 11px;
+  }
+  .teachers {
+    padding-bottom: 40px;
+  }
+  .teachers-heading__img {
+    max-width: 75px;
+    margin-top: -30px;
+  }
+  .teachers-list {
+    flex-direction: column;
+  }
+  .teachers-list__item {
+    margin-bottom: 30px;
+  }
+  .footer-subtitle {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section-title {
+    font-size: 22px;
+  }
+  .container-wide {
+    padding: 0 20px;
+  }
+  .container-normal {
+    padding: 0 20px;
+  }
+  .container-tight {
+    padding: 0 20px;
+  }
+  .container-tight--tighter {
+    padding: 0 20px;
+  }
+  .header {
+    background: none;
+  }
+  .header .button {
+    padding: 10px 20px;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-bottom__title {
+    font-size: 22px;
+  }
+  .header-timer {
+    display: none;
+  }
+  .about {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .about__img {
+    max-width: 130px;
+  }
+  .start {
+    padding-bottom: 50px;
+  }
+  .start-subtitle {
+    margin-bottom: 15px;
+  }
+  .start-bars__title {
+    margin-bottom: 5px;
+  }
+  .start-bars__title--75, .start-bars__title--50, .start-bars__title--result {
+    margin-bottom: 5px;
+  }
+  .partners-heading {
+    margin-bottom: 15px;
+  }
+  .partners-heading__title {
+    font-size: 20px;
+  }
+  .partners-list__cols {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .partners-list__item {
+    border: none;
+  }
+  .program {
+    padding-bottom: 50px;
+  }
+  .program-heading__subtitle {
+    font-size: 13px;
+  }
+  .program-col-item {
+    margin-bottom: 25px;
+  }
+  .program-col-item--left {
+    padding-right: 30px;
+  }
+  .program-col-item--left::after {
+    width: 20px;
+  }
+  .program-col-item--right {
+    padding-left: 30px;
+  }
+  .program-col-item--right::after {
+    width: 20px;
+  }
+  .program-col-item__week {
+    font-size: 12px;
+  }
+  .program-col-item__text {
+    font-size: 9px;
+  }
+  .teachers-list__img {
+    max-width: 90px;
+    margin-bottom: 10px;
+  }
+  .teachers-list__name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .teachers-list__special {
+    margin-bottom: 15px;
+  }
+  .teachers .button {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  .footer-subtitle {
+    font-size: 12px;
+  }
+  .footer-form__input {
+    font-size: 14px;
+    height: 35px;
+  }
+  .footer .button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .footer-socials__item {
+    margin-right: 15px;
+  }
+  .footer-copyright {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */

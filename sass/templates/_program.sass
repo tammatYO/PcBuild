@@ -1,0 +1,62 @@
+.program
+    padding-bottom: 171px
+    &-heading
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-bottom: 80px
+        &__img
+            margin-bottom: 45px
+        &__title
+            line-height: 140%
+            margin-bottom: 30px
+        &__subtitle
+            max-width: 411px
+            line-height: 160%
+            text-align: center
+            opacity: 0.5
+    &-cols
+        display: flex
+        align-items: center
+        justify-content: center
+    &-col
+        &:first-of-type
+            border-right: 6px solid $pinkTemp
+        &-item
+            position: relative
+            margin-bottom: 87px
+            &--left
+                text-align: right
+                padding-right: 60px
+                &::after
+                    content: ''
+                    position: absolute
+                    top: 46px
+                    right: 0
+                    width: 40px
+                    height: 1px
+                    background: rgba($white,0.3)
+            &--right
+                text-align: left
+                padding-left: 60px
+                &::after
+                    content: ''
+                    position: absolute
+                    top: 46px
+                    left: 0
+                    width: 40px
+                    height: 1px
+                    background: rgba($white,0.3)
+
+            &:last-of-type
+                margin-bottom: 0
+            &__week
+                font-size: 14px
+                line-height: 160%  
+                opacity: 0.5
+                margin-bottom: 15px
+            &__text
+                font-weight: 400
+                font-size: 18px
+                line-height: 160%

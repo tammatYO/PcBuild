@@ -1,0 +1,41 @@
+*,*:before, *:after
+    box-sizing: border-box
+    margin: 0
+h1,h2,h3
+    margin: 0
+html
+    font-family: 'Roboto', sans-serif
+    font-size: 16px
+    line-height: 150%
+    color: $white
+    scroll-behavior: smooth
+    background: url('../img/background.jpg') center
+a
+    color: $white
+    text-decoration: none
+.button
+    border: none
+    border-radius: 50px
+    padding: 10px 30px
+    font-size: 16px
+    cursor: pointer
+.container
+    &-wide
+        max-width: 1760px
+        width: 100%
+        margin: auto
+    &-normal
+        max-width: 1301px
+        width: 100%
+        margin: auto
+    &-tight
+        max-width: 750px
+        width: 100%
+        margin: auto
+        &--tighter
+            max-width: 547px
+.section
+    &-title
+        font-weight: 700
+        font-size: 48px
+        line-height: 140%

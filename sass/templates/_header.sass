@@ -1,0 +1,83 @@
+.header
+    background: url('../img/main-screen__bgc.jpg') no-repeat center / cover
+    padding-top: 38px
+    &-top
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 200px
+    &-nav
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &__item
+            margin-right: 56px
+            &:last-of-type
+                margin-right: 0
+        &__button
+            background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%)
+            margin-left: 270px
+            color: $white
+    &-bottom
+        &__title
+            max-width: 920px
+            font-size: 64px
+            line-height: 140%
+            margin-bottom: 50px
+    &-timer
+        display: flex
+        margin-bottom: 218px
+        &__item
+            text-align: center
+            background: $black
+            padding: 30px 20px
+            margin-right: 30px
+            &:last-of-type
+                margin-right: 0
+        &__title
+            line-height: 140%
+        &__text
+            color: $white
+            opacity: 0.4
+    .statistic
+        padding: 43px 0
+        background: $black
+        &-content
+            display: flex
+            align-items: center
+            justify-content: space-between
+        &__button
+            color: $white
+            background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%)
+        &-studs
+            max-width: 251px
+            width: 100%
+            &-block
+                display: flex
+                align-items: center
+                justify-content: space-between
+                &__text
+                    color: $white
+                    opacity: 0.4
+                    margin-bottom: 10px
+        &-earnings
+            max-width: 714px
+            width: 100%
+            &-number
+                display: flex
+                margin-bottom: 8px
+                &__text
+                    color: $white
+                    opacity: 0.4
+                    margin-right: 30px
+            &-bar
+                margin-bottom: 5px
+                height: 6px
+                background: linear-gradient(90deg, rgba(223,89,80,1) 12%, rgba(69,16,70,1) 60%, rgba(255,255,255,1) 60%)
+            &-target
+                display: flex
+                justify-content: space-between
+                color: $white
+                opacity: 0.4
+        .without-margin
+            margin: 0
